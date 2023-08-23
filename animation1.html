@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>background animation</title>
+        <style>
+            div{
+                width:100px;
+                height:100px;
+                background-color: red;
+                animation-name:example;
+                animation-duration: 8s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes example {
+                0% {background-color: red;}
+                25% {background-color: yellow;}
+                50% {background-color: blue;}
+                100% {backgroung-color: green;}
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSS Animation</h1>
+        <div></div>
+    </body>
+</html>
